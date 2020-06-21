@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{9326C2AD-E0D9-47FC-ADCA-B798275D7941}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <MyType>WindowsForms</MyType>
+    <RootNamespace>SIBIC</RootNamespace>
+    <AssemblyName>SIBIC</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <DefineConstants>DEBUG=1,TRACE=1</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <DefineConstants>TRACE=1</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bitacora.Designer.vb">
+      <DependentUpon>bitacora.vb</DependentUpon>
+    </Compile>
+    <Compile Include="bitacora.vb" />
+    <Compile Include="clsCl.vb" />
+    <Compile Include="clsCliente.vb" />
+    <Compile Include="clsinventario.vb" />
+    <Compile Include="clsProducto.vb" />
+    <Compile Include="clsUsuario.vb" />
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.vb" />
+    <Compile Include="MantenimientoAC.Designer.vb">
+      <DependentUpon>MantenimientoAC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoAC.vb" />
+    <Compile Include="MantenimientoAP.Designer.vb">
+      <DependentUpon>MantenimientoAP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoAP.vb" />
+    <Compile Include="MovimientoClUpdate.Designer.vb">
+      <DependentUpon>MovimientoClUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MovimientoClUpdate.vb" />
+    <Compile Include="MovimientoProDelete.Designer.vb">
+      <DependentUpon>MovimientoProDelete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MovimientoProDelete.vb" />
+    <Compile Include="MovimientoProUpdate.Designer.vb">
+      <DependentUpon>MovimientoProUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MovimientoProUpdate.vb" />
+    <Compile Include="MovimientoSearch.Designer.vb">
+      <DependentUpon>MovimientoSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MovimientoSearch.vb" />
+    <Compile Include="MovimientoClDelete.Designer.vb">
+      <DependentUpon>MovimientoClDelete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MovimientoClDelete.vb" />
+    <Compile Include="Program.vb" />
+    <Compile Include="Properties\AssemblyInfo.vb" />
+    <Compile Include="Usuario.Designer.vb">
+      <DependentUpon>Usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="bitacora.resx">
+      <DependentUpon>bitacora.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoAC.resx">
+      <DependentUpon>MantenimientoAC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoAP.resx">
+      <DependentUpon>MantenimientoAP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovimientoClUpdate.resx">
+      <DependentUpon>MovimientoClUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovimientoClDelete.resx">
+      <DependentUpon>MovimientoClDelete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovimientoProDelete.resx">
+      <DependentUpon>MovimientoProDelete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovimientoProUpdate.resx">
+      <DependentUpon>MovimientoProUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovimientoSearch.resx">
+      <DependentUpon>MovimientoSearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuario.resx">
+      <DependentUpon>Usuario.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

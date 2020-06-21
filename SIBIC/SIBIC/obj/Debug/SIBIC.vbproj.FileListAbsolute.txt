@@ -1,0 +1,16 @@
+C:\Users\Daniel\Documents\SharpDevelop Projects\SIBIC\SIBIC\obj\Debug\SIBIC.vbprojResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\SharpDevelop Projects\SIBIC\SIBIC\obj\Debug\SIBIC.bitacora.resources
+C:\Users\Daniel\Documents\SharpDevelop Projects\SIBIC\SIBIC\obj\Debug\SIBIC.MainForm.resources
+C:\Users\Daniel\Documents\SharpDevelop Projects\SIBIC\SIBIC\obj\Debug\SIBIC.Mantenimiento.resources
+C:\Users\Daniel\Documents\SharpDevelop Projects\SIBIC\SIBIC\obj\Debug\SIBIC.Movimiento.resources
+C:\Users\Daniel\Documents\SharpDevelop Projects\SIBIC\SIBIC\obj\Debug\SIBIC.Usuario.resources
+C:\Users\Daniel\Documents\SharpDevelop Projects\SIBIC\SIBIC\obj\Debug\SIBIC.vbproj.GenerateResource.Cache
+C:\Users\Daniel\Documents\SharpDevelop Projects\SIBIC\SIBIC\bin\Debug\SIBIC.exe
+C:\Users\Daniel\Documents\SharpDevelop Projects\SIBIC\SIBIC\bin\Debug\SIBIC.pdb
+C:\Users\Daniel\Documents\SharpDevelop Projects\SIBIC\SIBIC\obj\Debug\SIBIC.exe
+C:\Users\Daniel\Documents\SharpDevelop Projects\SIBIC\SIBIC\obj\Debug\SIBIC.pdb
+C:\Users\Daniel\Documents\SharpDevelop Projects\SIBIC\SIBIC\obj\Debug\SIBIC.MantenimientoAC.resources
+C:\Users\Daniel\Documents\SharpDevelop Projects\SIBIC\SIBIC\obj\Debug\SIBIC.MoviientoCl.resources
+C:\Users\Daniel\Documents\SharpDevelop Projects\SIBIC\SIBIC\obj\Debug\SIBIC.MovimientoClDelete.resources
+C:\Users\Daniel\Documents\SharpDevelop Projects\SIBIC\SIBIC\obj\Debug\SIBIC.MovimientoProDelete.resources
+C:\Users\Daniel\Documents\SharpDevelop Projects\SIBIC\SIBIC\obj\Debug\SIBIC.MovimientoProUpdate.resources
